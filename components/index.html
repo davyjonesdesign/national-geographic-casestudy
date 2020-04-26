@@ -6,9 +6,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Components | National Geographic</title>
+    <link href="../fonts/fontawesome/css/all.min.css" rel="stylesheet" />
     <link href="../css/normalize.css" rel="stylesheet" />
     <link href="../css/main.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/d3b0ff7f98.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="components-page">
@@ -27,13 +27,13 @@
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Atoms</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#atoms">Atoms</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">logomark</a></li>
-                        <li><a href="#!">section-header</a></li>
-                        <li><a href="#!">section-body</a></li>
-                        <li><a href="#!">button</a></li>
-                        <li><a href="#!">social-icon</a></li>
+                        <li><a href="#logomark">logomark</a></li>
+                        <li><a href="#section-header">section-header</a></li>
+                        <li><a href="#section-body">section-body</a></li>
+                        <li><a href="#button">button</a></li>
+                        <li><a href="#social-icon">social-icon</a></li>
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
@@ -106,6 +106,7 @@
         <p>This is a collection of components on my study of the design system of the
             <a href="https://www.nationalgeographic.org/">National Geographic</a>
             website.</p>
+
         <section id="typography" class="page-section">
             <h2 class="components-page__section-heading">Typography</h2>
             <article id="headings" class="component component--is--done">
@@ -144,6 +145,71 @@
                 </div>
             </article>
         </section>
+
+        <section id="atoms" class="page-section">
+            <h2 class="components-page__section-heading">Atoms</h2>
+            <article id="logomark" class="component component--is--done">
+                <h3 class="component__name">Logomark</h3>
+                <div class="component__img">
+                    <img src="img/logomark.png" alt="National Geographic Logomark" />
+                </div>
+                <div class="component__code">
+                    <div class="logomark">
+                        <div class="logomark__rectangle"></div>
+                        <p class="logomark__text">National <br> Geographic</p>
+                    </div>
+                </div>
+            </article>
+            <article id="section-header" class="component component--is--done">
+                <h3 class="component__name">section-header</h3>
+                <div class="component__img">
+                    <img src="img/section-header.png" alt="section-header">
+                </div>
+                <div class="component__code">
+                    <h2 class="section-header black">Covid-19 Emergency Fund For Journalists</h2>
+                </div>
+            </article>
+            <article id="section-body" class="component component--is--done">
+                <h3 class="component__name">section-body</h3>
+                <div class="component__img">
+                    <img src="img/section-body.png" alt="section-body">
+                </div>
+                <div class="component__code">
+                    <p class="section-body black">The National Geographic Society’s emergency fund will support
+                        journalists around the world who wish to safely cover COVID-19 within their own communities.</p>
+                </div>
+            </article>
+            <article id="button" class="component component--is--done">
+                <h3 class="component__name">button</h3>
+                <div class="component__img">
+                    <img src="img/button.png" alt="button">
+                    <img src="img/button--black.png" alt="black button">
+                    <img src="img/button--white.png" alt="white button">
+                </div>
+                <div class="component__code">
+                    <h5 class="button">
+                        <a href="#!">Explore More</a>
+                    </h5>
+                    <h5 class="button button--black">
+                        <a href="#!">Load More</a>
+                    </h5>
+                    <h5 class="button button--white">
+                        <a href="#!">Get Updates</a>
+                    </h5>
+                </div>
+            </article>
+            <article id="social-icon" class="component component--not--done">
+                <h3 class="component__name">social-icon</h3>
+                <div class="component__img">
+                    <img src="img/social-icon.png" alt="button">
+                </div>
+                <div class="component__code">
+                    <i class="fab fa-instagram fa-lg"></i>
+                </div>
+            </article>
+        </section>
+
+
     </div>
 
 </body>

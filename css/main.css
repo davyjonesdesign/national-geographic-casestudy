@@ -205,7 +205,75 @@ a {
     margin: 0;
     position: relative;
 }
+.component__code a {
+    margin: 1.5rem 0;
+}
+.black{
+    background: var(--color-black);
+}
 
+
+/***
+component code
+***/
+.logomark {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logomark__rectangle {
+    height: 50px;
+    width: 35px;
+    border: .35rem solid var(--color-yellow);
+}
+.logomark__text {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 1.3rem;
+    padding-left: 0.5rem;
+    letter-spacing: -1px;
+}
+.section-header {
+    color: var(--color-white);
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+}
+.section-body {
+    color: var(--color-white);
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+.button a {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: .15rem;
+    color: var(--color-black);
+    background: var(--color-yellow);
+    padding: 1rem 3rem;
+    margin: 0 0.5rem;
+    border-bottom: none;
+}
+.button a:hover {
+    color: var(--color-black);
+    background: var(--color-yellow-hvr);
+}
+.button--black a {
+    color: var(--color-white);
+    background: var(--color-black);
+}
+.button--black a:hover {
+    color: var(--color-white);
+    background: #333333;
+}
+.button--white a {
+    color: var(--color-black);
+    background: var(--color-white);
+}
+.button--white a:hover {
+    color: var(--color-black);
+    background: #f5f5f5;
+}
 
 /**
 .navbar
