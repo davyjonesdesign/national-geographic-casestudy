@@ -10,6 +10,7 @@
   --color-gray-light: #F5F5F5;
   --color-gray-middle: #999;
   --color-black: #000;
+  --color-white: #fff;
   --font-main: 'Nunito Sans', sans-serif;
 }
 
@@ -37,11 +38,37 @@ h6 {
   font-family: var(--font-main);
   font-weight: 600;
   text-transform: uppercase;
-  margin: 0;
 }
 
-img{
+h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 2.2px;
+}
+
+h3 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-transform: none;
+    font-weight: 900;
+}
+
+h5 {
+    font-size: 1.15rem;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+img {
   max-width: 100%;
+}
+
+img, video {
+    display: block;
 }
 
 a {
@@ -65,7 +92,7 @@ a {
     position: fixed;
     width: 100%;
     top: 0;
-    background: var(--color-gray-light);
+    background: var(--color-white);
     z-index: 100;
 }
 .components-page__header-container {
@@ -103,7 +130,7 @@ a {
 }
 
 .sidebar-nav {
-    background: var(--color-gray-light);
+    background: var(--color-white);
 }
 .sidebar-nav__section {
     margin-top: 2.5rem;
@@ -165,6 +192,12 @@ a {
     border: 1px solid #999;
     margin: 0;
     overflow-x: auto;
+    position: relative;
+}
+.component__code {
+    border: 1px solid #999;
+    background: var(--color-white);
+    margin: 0;
     position: relative;
 }
 
