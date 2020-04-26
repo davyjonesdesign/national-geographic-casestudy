@@ -185,8 +185,8 @@ a {
     padding: 0.25rem;
     margin: 0;
 }
-.component-page .component__name {
-    top: 2rem;
+.components-page .component__name {
+    top: 5rem;
     position: sticky;
     z-index: 9;
 }
