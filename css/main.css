@@ -277,6 +277,7 @@ component code
 .social-icon {
   padding: 1rem;
 }
+
 /**
 .navbar
 **/
@@ -309,7 +310,6 @@ component code
 .nav-list {
   list-style: none;
   padding: 0;
-  margin: 0;
   display: flex;
   align-items: center;
   text-transform: uppercase;
@@ -317,6 +317,7 @@ component code
 .nav-list a {
   display: inline-block;
   color: black;
+  margin: 0;
   font-size: 1rem;
   letter-spacing: 0.15rem;
   padding: 1rem 2rem;
@@ -357,4 +358,64 @@ component code
   font-size: 12px;
   letter-spacing: 0;
   line-height: 1rem;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.nav-list--dropdown {
+  display: none;
+  box-shadow: 0 -3px 0 0px var(--color-yellow);
+  position: absolute;
+  width: 768px;
+  margin: auto;
+  z-index: 70;
+  margin: auto;
+  left: 0;
+  background: #fff;
+  padding-left: 0 !important;
+}
+.nav-list--dropdown a {
+  text-transform: none;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+  letter-spacing: 0;
+}
+.dropdown-arrow {
+  margin: 0 10px;
+  color: var(--color-gray-middle);
+  font-size: 0.75rem;
+}
+.jc {
+  justify-content: space-around;
+}
+.nav-list--dropdown a:hover {
+  box-shadow: none;
+  border: none;
+  text-decoration: underline;
+}
+.dropdown:hover .nav-list--dropdown {
+  display: block;
+}
+.dropdown-dropdown {
+  position: relative;
+  display: block;
+}
+.dropdown-dropdown--list {
+  display: none;
+  background-color: var(--color-white);
+  box-shadow: 3px 3px 5px 6px #ccc;
+  position: absolute;
+  margin: 0;
+  min-width: 14rem;
+  z-index: 100;
+}
+.dropdown-dropdown--list a {
+  display: block;
+}
+.dropdown-dropdown:hover .dropdown-dropdown--list {
+  display: block;
+  box-shadow: none;
+  border: none;
 }

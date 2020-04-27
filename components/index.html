@@ -43,15 +43,15 @@
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Main Nav</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#mainnav">Main Navigation</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">main-nav</a></li>
-                        <li><a href="#!">main-nav__list</a></li>
-                        <li><a href="#!">main-nav__list--education</a></li>
-                        <li><a href="#!">main-nav__list--events</a></li>
-                        <li><a href="#!">main-nav__list--funding</a></li>
-                        <li><a href="#!">main-nav__button</a></li>
-                        <li><a href="#!">main-nav__account</a></li>
+                        <li><a href="#main-nav">main-nav</a></li>
+                        <li><a href="#main-nav__list">main-nav__list</a></li>
+                        <li><a href="#main-nav__list--education">main-nav__list--education</a></li>
+                        <li><a href="#main-nav__list--events">main-nav__list--events</a></li>
+                        <li><a href="#main-nav__list--funding">main-nav__list--funding</a></li>
+                        <li><a href="#main-nav__button">main-nav__button</a></li>
+                        <li><a href="#main-nav__account">main-nav__account</a></li>
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
@@ -107,6 +107,7 @@
             <a href="https://www.nationalgeographic.org/">National Geographic</a>
             website.</p>
 
+        <!--Typography-->
         <section id="typography" class="page-section">
             <h2 class="components-page__section-heading">Typography</h2>
             <article id="headings" class="component component--is--done">
@@ -146,6 +147,7 @@
             </article>
         </section>
 
+        <!--Atoms-->
         <section id="atoms" class="page-section">
             <h2 class="components-page__section-heading">Atoms</h2>
             <article id="logomark" class="component component--is--done">
@@ -209,9 +211,10 @@
             </article>
         </section>
 
+        <!--Page Header-->
         <section id="pageheader" class="page-section">
             <h2 class="components-page__section-heading">Page Header</h2>
-            <article id="[age-header]" class="component component--is--done">
+            <article id="page-header" class="component component--is--done">
                 <h3 class="component__name">page-header</h3>
                 <div class="component__img">
                     <img src="img/page-header.png" alt="Page Header">
@@ -236,7 +239,7 @@
                             </div>
                             <a class="navbar__account" href="#!">
                                 <i class="far fa-user"></i>
-                                <p class="account--description"> Account </p>
+                                <p class="account--description">Account</p>
                             </a>
                         </div>
                     </div>
@@ -244,6 +247,110 @@
             </article>
         </section>
 
+        <!--Main Navigation-->
+        <section id="mainnav" class="page-section">
+            <h2 class="components-page__section-heading">Main Navigation</h2>
+            <article id="main-nav" class="component component--is--done">
+                <h3 class="component__name">Main-Nav</h3>
+                <div class="component__img">
+                    <img src="img/main-nav.png" alt="Page Header">
+                </div>
+                <div class="component__code">
+                    <div class="navbar-container navbar__sticky">
+                        <div class="nav-bar">
+                            <ul class="nav-list" id="hidden-nav">
+                                <li><a href="#!">Impact</a></li>
+                                <li><a href="#!">Education</a></li>
+                                <li><a href="#!">Events</a></li>
+                                <li><a href="#!">Funding Opportunities</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar__right">
+                            <div class="button navbar__button">
+                                <a href="#!">Donate</a>
+                            </div>
+                            <a class="navbar__account" href="#!">
+                                <i class="far fa-user"></i>
+                                <p class="account--description">Account</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="main-nav__list" class="component component--is--done">
+                <h3 class="component__name">main-nav__list</h3>
+                <div class="component__img">
+                    <img src="img/main-nav__list.png" alt="Main Nav List">
+                </div>
+                <div class="component__code">
+                    <div class="navbar-container navbar__sticky">
+                        <div class="nav-bar">
+                            <ul class="nav-list" id="hidden-nav">
+                                <li><a href="#!">Impact</a></li>
+                                <li><a href="#!">Education</a></li>
+                                <li><a href="#!">Events</a></li>
+                                <li><a href="#!">Funding Opportunities</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="main-nav__list--education" class="component component--not--done">
+                <h3 class="component__name">main-nav__list--education</h3>
+                <div class="component__img">
+                    <img src="img/main-nav__list--education.png" alt="Main Nav List Education Dropdown">
+                </div>
+                <div class="component__code">
+                    <div class="navbar-container navbar__sticky">
+                        <div class="nav-bar">
+                            <div class="nav-list" id="hidden-nav">
+                                <a href="#!">Impact</a>
+                                <div class="dropdown">
+                                    <a href="#!">Education</a>
+                                    <div class="nav-bar nav-list--dropdown">
+                                        <div class="nav-list jc" id="hidden-nav">
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Classroom Resources<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">Resource Library</a>
+                                                    <a href="#!">Mapping</a>
+                                                    <a href="#!">Explorer Magazine</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Professional Development<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">Online Courses</a>
+                                                    <a href="#!">Educator Network</a>
+                                                    <a href="#!">Grants for Educators</a>
+                                                    <a href="#!">Governer Teacher Fellowships</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Student Experiences<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">2019 Geo Championships</a>
+                                                    <a href="#!">GeoBee</a>
+                                                    <a href="#!">Explorer Classroom</a>
+                                                    <a href="#!">Student Matinees</a>
+                                                </div>
+                                            </div>
+                                            <a href="#!">Blog</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#!">Events</a>
+                                <a href="#!">Funding Opportunities</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
 
     </div>
 
