@@ -325,7 +325,7 @@ component code
 }
 .nav-list a:hover {
   color: black;
-  box-shadow: 0 10px 0 -8px var(--color-yellow);
+  box-shadow: 0 10px 0 -7px var(--color-yellow);
 }
 .navbar__button a {
   text-transform: uppercase;

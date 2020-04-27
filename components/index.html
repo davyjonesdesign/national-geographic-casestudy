@@ -47,9 +47,7 @@
                     <ul class="sidebar-nav__list">
                         <li><a href="#main-nav">main-nav</a></li>
                         <li><a href="#main-nav__list">main-nav__list</a></li>
-                        <li><a href="#main-nav__list--education">main-nav__list--education</a></li>
-                        <li><a href="#main-nav__list--events">main-nav__list--events</a></li>
-                        <li><a href="#main-nav__list--funding">main-nav__list--funding</a></li>
+                        <li><a href="#main-nav__list--dropdown">main-nav__list--dropdown</a></li>
                         <li><a href="#main-nav__button">main-nav__button</a></li>
                         <li><a href="#main-nav__account">main-nav__account</a></li>
                     </ul>
@@ -295,10 +293,12 @@
                     </div>
                 </div>
             </article>
-            <article id="main-nav__list--education" class="component component--not--done">
-                <h3 class="component__name">main-nav__list--education</h3>
+            <article id="main-nav__list--dropdown" class="component component--is--done">
+                <h3 class="component__name">main-nav__list--dropdown</h3>
                 <div class="component__img">
                     <img src="img/main-nav__list--education.png" alt="Main Nav List Education Dropdown">
+                    <img src="img/main-nav__list--events.png" alt="Main Nav List Events Dropdown">
+                    <img src="img/main-nav__list--funding.png" alt="Main Nav List Funding Dropdown">
                 </div>
                 <div class="component__code">
                     <div class="navbar-container navbar__sticky">
@@ -342,8 +342,54 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#!">Events</a>
-                                <a href="#!">Funding Opportunities</a>
+                                <div class="dropdown">
+                                    <a href="#!">Events</a>
+                                    <div class="nav-bar nav-list--dropdown">
+                                        <div class="nav-list jc" id="hidden-nav">
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Visit the Museum<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">Contributing Membership</a>
+                                                    <a href="#!">Group Sales</a>
+                                                    <a href="#!">Museum Store</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Browse All Events<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">Watch Past Events</a>
+                                                </div>
+                                            </div>
+                                            <a href="#!">Host An Exhibition</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="#!">Funding Opportunities</a>
+                                    <div class="nav-bar nav-list--dropdown">
+                                        <div class="nav-list jc" id="hidden-nav">
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Grants Program<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">What We Fund</a>
+                                                    <a href="#!">Where We Work</a>
+                                                    <a href="#!">How To Apply</a>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-dropdown">
+                                                <a href="#!">Innovation Challenges<i
+                                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                                <div class="dropdown-dropdown--list">
+                                                    <a href="#!">Ocean Plastic Challenge</a>
+                                                </div>
+                                            </div>
+                                            <a href="#!">Support Our Work</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
