@@ -431,12 +431,12 @@ h5.button{
 .feature-section
 **/
 .covid-section--background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../components/img/feature-section__background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/feature-section__background.jpg);
   background-color: rgba(255, 255, 255, 0.3);
   min-width: 100% !important;
 }
 .schools-section--background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../components/img/schools-section--background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/schools-section--background.jpg);
   background-color: rgba(255, 255, 255, 0.3);
   min-width: 100% !important;
 }
