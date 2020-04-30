@@ -51,9 +51,10 @@ h3 {
 }
 
 h4 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     text-transform: none;
-    font-weight: 900;
+    font-weight: 800;
+    letter-spacing: 0.25px;
 }
 
 h5 {
@@ -186,7 +187,7 @@ a {
     margin: 0;
 }
 .components-page .component__name {
-    top: 5rem;
+    top: 4.45rem;
     position: sticky;
     z-index: 9;
 }
@@ -429,10 +430,17 @@ h5.button{
 /**
 .feature-section
 **/
-.feauture-section--container {
+.covid-section--background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../components/img/feature-section__background.jpg);
   background-color: rgba(255, 255, 255, 0.3);
   min-width: 100% !important;
+}
+.schools-section--background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../components/img/schools-section--background.jpg);
+  background-color: rgba(255, 255, 255, 0.3);
+  min-width: 100% !important;
+}
+.feature-section--container {
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -451,4 +459,24 @@ h5.button{
 .section__content {
   min-height: 318px;
   width: 50%;
+}
+.hero--strong-text {
+  color: var(--color-white);
+  text-align: center;
+}
+.hero__content {
+  min-height: 318px;
+  width: 66.66%;
+}
+.hero-header {
+  text-align: center;
+}
+.hero__content-wrapper {
+  justify-content: center;
+}
+.whitespace {
+  display: inline-block;
+}
+h2.whitespace {
+  margin-top: 4rem;
 }
