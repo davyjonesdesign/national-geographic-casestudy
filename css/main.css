@@ -602,19 +602,21 @@ http://flickity.metafizzy.co
 .carousel {
   background: #f5f5f5;
 }
-.carousel-cell {
+.carousel-card {
   width: 33%;
-  height: 570px;
-  background: white;
-  counter-increment: carousel-cell;
+  margin: 0 0.25px;
+  background: var(--color-white);
 }
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white;
+.carousel-card img {
+  max-width: 100%;
+}
+.carousel-card__img {
+  cursor: pointer;
+}
+.carousel-card__img:hover {
+  opacity: 0.9 !important;
+}
+.carousel-card__content {
+  margin: 0 auto;
+  width: 83.3333%
 }
