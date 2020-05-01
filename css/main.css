@@ -673,15 +673,21 @@ http://flickity.metafizzy.co
   font-weight: 600;
   margin: 0;
 }
+.social-grid__content a:hover {
+  border-bottom: 1px solid var(--color-black);
+}
 .social-grid__content--dark a {
   color: var(--color-gray-middle);
-  border: none;
+}
+.social-grid__content--dark a:hover {
+  color: var(--color-white);
+  border-bottom: 1px solid var(--color-yellow-hvr);
 }
 .social-grid__content--icon {
   margin-top: 25px;
 }
 .social-grid__content--dark .social-grid__content--icon {
-  color: var(--color-gray-middle)
+  color: var(--color-gray-light)
 }
 .social-grid__content--dark {
   background-color: var(--color-black);  
