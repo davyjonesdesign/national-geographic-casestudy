@@ -600,11 +600,11 @@ http://flickity.metafizzy.co
 
 /* basic carousel styles */
 .carousel {
-  background: #f5f5f5;
+  background: var(--color-white);
 }
 .carousel-card {
-  width: 33%;
-  margin: 0 0.25px;
+  width: 33.3333%;
+  margin: 0 0.4px;
   background: var(--color-white);
 }
 .carousel-card img {
@@ -619,4 +619,10 @@ http://flickity.metafizzy.co
 .carousel-card__content {
   margin: 0 auto;
   width: 83.3333%
+}
+.carousel-card__content a {
+  border-bottom: none;
+}
+.carousel-card__content a:hover {
+  border-bottom: 1px solid var(--color-yellow);
 }
