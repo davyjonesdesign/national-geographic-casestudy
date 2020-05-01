@@ -62,36 +62,35 @@
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Project Carousel</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#projectcarousel">Project Carousel</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">project-carousel</a></li>
-                        <li><a href="#!">project-carousel__card</a></li>
-                        <li><a href="#!">project-carousel__arrows</a></li>
+                        <li><a href="#project-carousel">project-carousel</a></li>
+                        <li><a href="#project-carousel__card">project-carousel__card</a></li>
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Form</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#form">Form</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">form-section</a></li>
-                        <li><a href="#!">form-section__content</a></li>
+                        <li><a href="#form-section">form-section</a></li>
+                        <li><a href="#form-section__content">form-section__content</a></li>
 
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Social Grid</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#socialgrid">Social Grid</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">social-grid</a></li>
-                        <li><a href="#!">social-grid__card</a></li>
-                        <li><a href="#!">social-grid__card--dark</a></li>
-                        <li><a href="#!">social-grid__card--half</a></li>
+                        <li><a href="#social-grid">social-grid</a></li>
+                        <li><a href="#social-grid__quarter">social-grid__quarter</a></li>
+                        <li><a href="#social-grid__quarter--dark">social-grid__quarter--dark</a></li>
+                        <li><a href="#social-grid__half">social-grid__half</a></li>
                     </ul>
                 </section>
                 <section class="sidebar-nav__section">
-                    <h2 class="sidebar-nav__heading"><a href="#!">Page Footer</a></h2>
+                    <h2 class="sidebar-nav__heading"><a href="#pagefooter">Page Footer</a></h2>
                     <ul class="sidebar-nav__list">
-                        <li><a href="#!">page-footer</a></li>
-                        <li><a href="#!">page-footer__links</a></li>
-                        <li><a href="#!">social-list</a></li>
+                        <li><a href="#page-footer">page-footer</a></li>
+                        <li><a href="#page-footer__links">page-footer__links</a></li>
+                        <li><a href="#social-list">social-list</a></li>
                     </ul>
                 </section>
             </nav>
@@ -494,7 +493,7 @@
         <!--Project Carousel -->
         <section id="projectcarousel" class="page-section">
             <h2 class="components-page__section-heading">Project Carousel</h2>
-            <article id="project-carousel" class="component component--not--done">
+            <article id="project-carousel" class="component component--is--done">
                 <h3 class="component__name">Project-Carousel</h3>
                 <div class="component__img">
                     <img src="img/Project-Carousel.jpg" alt="Project Carousel">
@@ -661,6 +660,180 @@
                     </div>
                     <!-- script from  http://flickity.metafizzy.co -->
                     <script src="../js/script.js"></script>
+                </div>
+            </article>
+            <article id="project-carousel__card" class="component component--is--done">
+                <h3 class="component__name">Project-Carousel__Card</h3>
+                <div class="component__img">
+                    <img src="img/project-carousel__card.png" alt="Project Carousel Card">
+                </div>
+                <div class="component__code">
+                    <!--2-->
+                    <div class="carousel-card">
+                        <a href="#!">
+                            <div class="carousel-card__img">
+                                <img src="../img/shivani.jpg" alt="Shivani Bhalla">
+                            </div>
+                        </a>
+                        <div class="carousel-card__content">
+                            <h4><a href="#!">Shivani Bhalla</a></h4>
+                            <p>A conservation biologist works to safeguard the future of Kenya’s rapidly declining
+                                lion population.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!--Social Grid -->
+        <section id="socialgrid" class="page-section">
+            <h2 class="components-page__section-heading">Social Grid</h2>
+            <article id="social-grid" class="component component--is--done">
+                <h3 class="component__name">Social-Grid</h3>
+                <div class="component__img">
+                    <img src="img/social-grid.png" alt="Social Grid">
+                </div>
+                <div class="component__code">
+                    <div class="social-grid--wrapper">
+                        <!-- Quarter -->
+                        <div class="social-grid__quarters--wrapper">
+                            <div class="social-grid__quarter">
+                                <div class="social-grid__content social-grid__content--dark">
+                                    <h4>“This is the most incredible animal on the face of...</h4>
+                                    <a href="#!">Read More</a>
+                                    <div class="social-grid__content--icon">
+                                        <i class="fab fa-instagram fa-lg"></i>
+                                    </div>
+                                    <i class="fas fa-caret-right"></i>
+                                </div>
+                                <div class="social-grid__quarter--img">
+                                </div>
+                            </div>
+                            <!-- Quarter-Dark -->
+                            <div class="social-grid__quarter">
+                                <div class="social-grid__quarter--img2">
+                                </div>
+                                <div class="social-grid__content">
+                                    <h4>For decades, scientists were opposed to the idea t...</h4>
+                                    <a href="#!">Read More</a>
+                                    <div class="social-grid__content--icon">
+                                        <i class="fab fa-instagram fa-lg"></i>
+                                    </div>
+                                    <i class="fas fa-caret-left"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Half -->
+                        <div class="social-grid__half--wrapper">
+                            <div class="social-grid__half--img">
+                                <div
+                                    class="social-grid__half--content-wrapper social-grid__content--dark no-background">
+                                    <div class="social-grid__half--content">
+                                        <h4>Take a virtual journey through the incredible life of Dr. #J..</h4>
+                                        <a href="#!">Read More</a>
+                                        <div class="social-grid__content--icon">
+                                            <i class="fab fa-instagram fa-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="social-grid__quarter" class="component component--is--done">
+                <h3 class="component__name">Social-Grid__Quarter</h3>
+                <div class="component__img">
+                    <img src="img/social-grid__quarter.png" alt="Social Grid Quarter">
+                </div>
+                <div class="component__code">
+                    <div class="social-grid--wrapper">
+                        <!-- Quarter -->
+                        <div class="social-grid__quarters--wrapper">
+                            <div class="social-grid__quarter">
+                            </div>
+                            <!-- Quarter-Dark -->
+                            <div class="social-grid__quarter">
+                                <div class="social-grid__quarter--img2">
+                                </div>
+                                <div class="social-grid__content">
+                                    <h4>For decades, scientists were opposed to the idea t...</h4>
+                                    <a href="#!">Read More</a>
+                                    <div class="social-grid__content--icon">
+                                        <i class="fab fa-instagram fa-lg"></i>
+                                    </div>
+                                    <i class="fas fa-caret-left"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Half -->
+                        <div class="social-grid__half--wrapper">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="social-grid__quarter--dark" class="component component--is--done">
+                <h3 class="component__name">Social-Grid__Quarter--Dark</h3>
+                <div class="component__img">
+                    <img src="img/social-grid__quarter--dark.png" alt="Social Grid Quarter Dark">
+                </div>
+                <div class="component__code">
+                    <div class="social-grid--wrapper">
+                        <!-- Quarter -->
+                        <div class="social-grid__quarters--wrapper">
+                            <div class="social-grid__quarter">
+                                <div class="social-grid__content social-grid__content--dark">
+                                    <h4>“This is the most incredible animal on the face of...</h4>
+                                    <a href="#!">Read More</a>
+                                    <div class="social-grid__content--icon">
+                                        <i class="fab fa-instagram fa-lg"></i>
+                                    </div>
+                                    <i class="fas fa-caret-right"></i>
+                                </div>
+                                <div class="social-grid__quarter--img">
+                                </div>
+                            </div>
+                            <!-- Quarter-Dark -->
+                            <div class="social-grid__quarter">
+                            </div>
+                        </div>
+                        <!-- Half -->
+                        <div class="social-grid__half--wrapper">
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="social-grid__half" class="component component--is--done">
+                <h3 class="component__name">Social-Grid__half</h3>
+                <div class="component__img">
+                    <img src="img/social-grid__half.png" alt="Social Grid Half">
+                </div>
+                <div class="component__code">
+                    <div class="social-grid--wrapper">
+                        <!-- Quarter -->
+                        <div class="social-grid__quarters--wrapper">
+                            <div class="social-grid__quarter">
+                            </div>
+                            <!-- Quarter-Dark -->
+                            <div class="social-grid__quarter">
+                            </div>
+                        </div>
+                        <!-- Half -->
+                        <div class="social-grid__half--wrapper">
+                            <div class="social-grid__half--img">
+                                <div
+                                    class="social-grid__half--content-wrapper social-grid__content--dark no-background">
+                                    <div class="social-grid__half--content">
+                                        <h4>Take a virtual journey through the incredible life of Dr. #J..</h4>
+                                        <a href="#!">Read More</a>
+                                        <div class="social-grid__content--icon">
+                                            <i class="fab fa-instagram fa-lg"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>

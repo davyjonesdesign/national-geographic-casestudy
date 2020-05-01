@@ -626,3 +626,149 @@ http://flickity.metafizzy.co
 .carousel-card__content a:hover {
   border-bottom: 1px solid var(--color-yellow);
 }
+
+/**
+.social-grid
+**/
+.social-grid--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  min-height: 500px;
+  width: 100%;
+}
+.social-grid__quarters--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  float: left;
+  overflow-x: hidden;
+}
+.social-grid__half--wrapper {
+  margin: 0;
+  padding: 0;
+  width: 50%; 
+  float: left;
+}
+.social-grid__quarter {
+  display: flex;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 100%;
+}
+.social-grid__content {
+  background-color: var(--color-white);
+  width: 50%;
+  padding: 20px;
+  margin: 0;
+}
+.social-grid__content h4 {
+  margin: 0 0 25px 0;
+  line-height: 2.25rem;
+}
+.social-grid__content a {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0;
+}
+.social-grid__content--dark a {
+  color: var(--color-gray-middle);
+  border: none;
+}
+.social-grid__content--icon {
+  margin-top: 25px;
+}
+.social-grid__content--dark .social-grid__content--icon {
+  color: var(--color-gray-middle)
+}
+.social-grid__content--dark {
+  background-color: var(--color-black);  
+  color: var(--color-white);
+}
+.social-grid__quarter--img {
+  display: flex;
+  background-image: url("../img/social-grid__quarter--img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+  padding: 0;
+  overflow-x: hidden;
+}
+.social-grid__quarter--img2 {
+  display: flex;
+  background-image: url("../img/social-grid__quarter--img2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+  padding: 0;
+  overflow-x: hidden;
+}
+.fa-caret-right {
+  display: inline-block;
+  position: absolute;
+  font-size: 4rem;
+  left: 18rem;
+  top: 6rem;
+  z-index: 1;
+  color: var(--color-black);
+}
+.fa-caret-left {
+  display: inline-block;
+  position: absolute;
+  font-size: 4rem;
+  left: 16.9rem;
+  top: 21.5rem;
+  z-index: 1;
+  color: var(--color-white); 
+}
+.social-grid__half--wrapper {
+  min-height: 250px;
+  padding: 0;
+  width: 50%;
+  margin: 0;
+  float: left;
+  overflow-x: hidden;
+}
+.social-grid__half--img {
+  background-image: url("../img/social-grid__half--img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+.social-grid__half--content-wrapper {
+  height: 75%;
+  margin-bottom: -1px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.no-background {
+  background: none;
+}
+.social-grid__half--content {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  padding: 20px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.social-grid__half--content h4 {
+  line-height: 2.25rem;
+}
