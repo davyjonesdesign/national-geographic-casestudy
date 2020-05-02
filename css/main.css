@@ -693,6 +693,30 @@ http://flickity.metafizzy.co
 .form__button {
   padding: 0 0 0 25px;
 }
+.form__php {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 0.13em;
+  word-spacing: 0.5em;
+  margin: 0 0 20px;
+  text-transform: none;
+}
+.button--input {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: .15rem;
+  color: var(--color-black);
+  background: var(--color-yellow);
+  padding: 1rem 3rem;
+  border: none;
+  margin: 0;
+}
+.button--input:hover {
+  color: var(--color-black);
+  background: var(--color-yellow-hvr);
+  cursor: pointer;
+}
 
 /**
 .social-grid
