@@ -135,6 +135,12 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+  .components-page__header {
+    display: none;
+}
+}
+
 .sidebar-nav {
     background: var(--color-white);
 }
@@ -298,7 +304,7 @@ h5.button{
 .navbar
 **/
 @media only screen and (max-width: 1026px) { 
-  #hidden-nav { 
+  .hidden-nav { 
     display: none; 
   } 
 }
@@ -479,15 +485,13 @@ h5.button{
 }
 .hero-header {
   text-align: center;
+  margin: 6rem 0 4.5rem 0;
 }
 .hero__content-wrapper {
   justify-content: center;
 }
-.whitespace {
-  display: inline-block;
-}
-h2.whitespace {
-  margin-top: 4rem;
+.mrg-btm {
+  margin-bottom: 6rem;
 }
 
 /*! Flickity v1.0.0
@@ -709,15 +713,18 @@ http://flickity.metafizzy.co
   text-transform: none;
 }
 .button--input {
+  text-transform: uppercase;
   display: inline-block;
-  font-size: 1.1rem;
+  min-width: 235px;
+  min-height: 50px;
+  font-size: 0.75rem;
   font-weight: 800;
   letter-spacing: .15rem;
   color: var(--color-black);
   background: var(--color-yellow);
-  padding: 1rem 3rem;
+  padding: 0 35px;
   border: none;
-  margin: 0;
+  margin: 20px 0 0 0 ;
 }
 .button--input:hover {
   color: var(--color-black);
