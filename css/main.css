@@ -10,6 +10,7 @@
   --color-gray-light: #F5F5F5;
   --color-gray-middle: #999;
   --color-black: #000;
+  --color-black-footer: #222;
   --color-white: #fff;
   --font-main: 'Nunito Sans', sans-serif;
 }
@@ -67,6 +68,7 @@ p {
     font-size: 1.15rem;
     font-weight: 700;
     line-height: 2.25rem;
+    word-spacing: 0.05em;
 }
 
 img {
@@ -673,7 +675,6 @@ http://flickity.metafizzy.co
   background: var(--color-white);
   color: var(--color-black);
   text-align: left;
-  word-spacing: 0.5em;
   vertical-align: middle;
   width: 100%;
 }
@@ -697,7 +698,6 @@ http://flickity.metafizzy.co
   font-size: 19px;
   font-weight: bold;
   letter-spacing: 0.13em;
-  word-spacing: 0.5em;
   margin: 0 0 20px;
   text-transform: none;
 }
@@ -868,4 +868,142 @@ http://flickity.metafizzy.co
 }
 .social-grid__half--content h4 {
   line-height: 2.25rem;
+}
+
+/**
+.page-footer
+**/
+.page-footer {
+  background: var(--color-black-footer);
+  color: var(--color-white);
+  display: block;
+}
+.page-footer__wrapper {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -25px;
+}
+.page-footer__address p{
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+.page-footer__upper-left {
+  width: 25%;
+  padding: 0 5px 0 25px;
+  margin: 0;
+  list-style: none;
+}
+.page-footer__upper-middle {
+  width: 50%;
+  padding: 0 0 0 25px;
+}
+.page-footer__upper-middle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.page-footer__links-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-footer__link-column {
+  padding: 0 0 0 25px;
+  width: 33.33%;
+}
+.page-footer__link-heading {
+  font-size: 1rem;
+  color: var(--color-gray-middle);
+  letter-spacing: 4px;
+  margin: 0 0 25px 0;
+}
+.page-footer__link-list--item a {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 500;
+  border: none;
+}
+.page-footer__link-list--item a:hover {
+  text-decoration: underline
+}
+.page-footer__btm-mgn {
+  margin: 0 0 20px 0;
+}
+.page-footer__no-mgn {
+  margin: 0;
+}
+.page-footer__upper-right {
+  width: 25%;
+}
+.page-footer__buttons--wrapper {
+  margin: 0 10px 0 25px;
+  float: right;
+
+}
+.page-footer__button {
+
+}
+.page-footer__button a{
+  display: block;
+  font-size: 0.75rem;
+  line-height: 48px;
+  min-width: 235px;
+  min-height: 50px;
+  margin: 0;
+  padding: 0 35px;
+  text-align: center;
+}
+.page-footer__bottom-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-footer__bottom-left {
+  width: 25%;
+  padding-left: 25px;
+}
+.page-footer__social-heading {
+  margin: 0 0 20px 0;
+  padding: 20px 0 0 0;
+  font-size: 12px;
+  letter-spacing: 4px;
+}
+.page-footer__social-icons i {
+  font-size: 150%;
+  line-height: 150%;
+  vertical-align: -10%;
+  margin-right: 20px;
+  color: var(--color-gray-middle);
+}
+.page-footer__social-icons i:hover {
+  color: var(--color-white);
+}
+.page-footer__bottom-middle {
+  width: 75%;
+  padding-left: 25px;
+}
+.page-footer__copyright--wrapper {
+  margin: 20px 0 0 0;
+}
+.page-footer__copyright--content {
+  color: var(--color-gray-middle);
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 500;
+  margin: 0;
+}
+.page-footer__copyright--content a {
+  color: var(--color-gray-middle);
+  font-size: 12px;
+  line-height: 1.7;
+  font-weight: 500;
+  margin: 0;
+  border: none;
+}
+.page-footer__copyright--content a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-white);
 }
