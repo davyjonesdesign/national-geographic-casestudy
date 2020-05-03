@@ -148,6 +148,7 @@ a {
 }
 .sidebar-nav__heading a {
     text-decoration: none;
+    font-size: 20px;
     color: var(--color-yellow-dark);
     border-bottom: none;
 }
@@ -156,9 +157,15 @@ a {
     padding: 0;
 }
 .sidebar-nav__list a {
+    font-size: 16px;
     text-decoration: none;
     text-transform: none;
     border-bottom: none;
+}
+.sidebar-nav__list a:hover {
+  color: var(--color-yellow-dark);
+  margin-left: 5px;
+  z-index: 100;
 }
 
 .container {
