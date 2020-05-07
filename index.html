@@ -8,13 +8,177 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/d3b0ff7f98.js" crossorigin="anonymous"></script>
-    <title>This is the Title</title>
+    <link href="fonts/fontawesome/css/all.min.css" rel="stylesheet" />
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="js/navscroll.js"></script>
+    <link rel="shortcut icon" type="image/svg" href="img/favricon.svg">
+    <title>National Geographic | Web Development Design System | Davy Jones</title>
 </head>
 
 <body>
 
+    <header class="navbar__sticky">
+        <div class="navbar-container">
+            <div class="logomark">
+                <div class="logomark__rectangle"></div>
+                <p class="logomark__text">National <br> Geographic</p>
+            </div>
+            <div class="nav-list hidden-nav">
+                <a href="#!">Impact</a>
+                <div class="dropdown">
+                    <a href="#!">Education</a>
+                    <div class="nav-bar nav-list--dropdown">
+                        <div class="nav-list jc hidden-nav">
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Classroom Resources<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">Resource Library</a>
+                                    <a href="#!">Mapping</a>
+                                    <a href="#!">Explorer Magazine</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Professional Development<i
+                                        class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">Online Courses</a>
+                                    <a href="#!">Educator Network</a>
+                                    <a href="#!">Grants for Educators</a>
+                                    <a href="#!">Governer Teacher Fellowships</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Student Experiences<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">2019 Geo Championships</a>
+                                    <a href="#!">GeoBee</a>
+                                    <a href="#!">Explorer Classroom</a>
+                                    <a href="#!">Student Matinees</a>
+                                </div>
+                            </div>
+                            <a href="#!">Blog</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#!">Events</a>
+                    <div class="nav-bar nav-list--dropdown">
+                        <div class="nav-list jc hidden-nav">
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Visit the Museum<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">Contributing Membership</a>
+                                    <a href="#!">Group Sales</a>
+                                    <a href="#!">Museum Store</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Browse All Events<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">Watch Past Events</a>
+                                </div>
+                            </div>
+                            <a href="#!">Host An Exhibition</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#!">Funding Opportunities</a>
+                    <div class="nav-bar nav-list--dropdown">
+                        <div class="nav-list jc hidden-nav">
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Grants Program<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">What We Fund</a>
+                                    <a href="#!">Where We Work</a>
+                                    <a href="#!">How To Apply</a>
+                                </div>
+                            </div>
+                            <div class="dropdown-dropdown">
+                                <a href="#!">Innovation Challenges<i class="fas fa-chevron-down dropdown-arrow"></i></a>
+                                <div class="dropdown-dropdown--list">
+                                    <a href="#!">Ocean Plastic Challenge</a>
+                                </div>
+                            </div>
+                            <a href="#!">Support Our Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__right">
+                <div class="button navbar__button">
+                    <a href="#!">Donate</a>
+                </div>
+                <a class="navbar__account" href="#!">
+                    <i class="far fa-user"></i>
+                    <p class="account--description">Account</p>
+                </a>
+                <a class="navbar__menu-button" href="#!">
+                    <i class="fa fa-bars"></i>
+                    <p class="account--description">Menu</p>
+                </a>
+            </div>
 
+        </div>
+    </header>
+    <section class="splash-video__container">
+        <div class="splash-video__wrapper">
+            <video autoplay loop muted poster="img/splash-video__poster.jpg" class="splash-video">
+                <source src="video/splash-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="splash-video__gradient"></div>
+    </section>
+    <section>
+        <div class="black">
+            <div class="content-wrapper hero__content-wrapper">
+                <div class="hero__content">
+                    <h2 class="section-header hero-header">We're all in this together.</h2>
+                    <h4 class="hero--strong-text">The National Geographic Society uses the power of science,
+                        exploration,
+                        education, and storytelling to illuminate and protect the wonder of our world.</h4>
+                    <h4 class="hero--strong-text mrg-btm">In this time of global uncertainty, we are
+                        increasing our
+                        efforts to
+                        support explorers, educators, storytellers, and learners. Scroll down below for
+                        relevant news, resources, and interactive content.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="feature-section--container schools-section--background">
+            <div class="content-wrapper">
+                <div class="section__content"></div>
+                <div class="section__content">
+                    <h2 class="section-header">Schools are closed. Learning is open.</h2>
+                    <p class="section-body">There are many engaging, creative, and fun ways to learn at
+                        home. We invite you to explore curated collections of activities that have been
+                        developed for educators, parents, and caregivers to implement with K–12 learners
+                        anywhere, anytime.</p>
+                    <h5 class="button">
+                        <a href="#!">Explore More</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="feature-section--container covid-section--background">
+            <div class="content-wrapper">
+                <div class="section__content">
+                    <h2 class="section-header">COVID-19 Emergency Fund for Journalists</h2>
+                    <p class="section-body">The National Geographic Society’s emergency fund will support
+                        journalists around the world who wish to safely cover COVID-19 within their own
+                        communities.</p>
+                    <h5 class="button">
+                        <a href="#!">Learn More</a>
+                    </h5>
+                </div>
+                <div class="section__content"></div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
