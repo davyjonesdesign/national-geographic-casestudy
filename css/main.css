@@ -522,7 +522,7 @@ h5.button{
   min-width: 100% !important;
 }
 .feature-section--container {
-  height: 100vh;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -538,6 +538,7 @@ h5.button{
   padding: 0 25px;
 }
 .section__content {
+  margin: 5rem 0;
   min-height: 318px;
   width: 50%;
 }
@@ -558,6 +559,19 @@ h5.button{
 }
 .mrg-btm {
   margin-bottom: 6rem;
+}
+@media only screen and (max-width: 1068px) { 
+  .section__hide-div {
+    display: none;
+  }
+  .section__content {
+    min-height: 318px;
+    width: 100%;
+  }
+  .hero__content {
+    min-height: 318px;
+    width: 100%;
+  }
 }
 
 /*! Flickity v1.0.0
