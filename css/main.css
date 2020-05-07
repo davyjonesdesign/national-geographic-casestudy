@@ -697,20 +697,21 @@ http://flickity.metafizzy.co
 /* basic carousel styles */
 .carousel {
   background: var(--color-white);
+  margin: 3rem auto;
 }
 .carousel__content-wrapper h2 {
   font: var(--color-black);
   text-align: center;
   font-size: 2.625rem;
   font-weight: 800;
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 .carousel__content-wrapper {
   display: block;
   width: 100%;
   height: 100%;
   align-items: center;
-  margin: 6rem auto 3rem auto;
+  margin: 3rem auto;
   max-width: 1080px;
   padding: 0 25px;
   text-align: center;
@@ -753,16 +754,18 @@ http://flickity.metafizzy.co
 .form
 **/
 .form-section {
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: auto;
   background: var(--color-gray-light);
-  margin: 0;
+  margin: 0 auto;
 }
 .form-section__container {
   display: inline-block;
   margin: 0 auto;
   max-width: 1080px;
-  padding: 0 25px;
+  padding: 3rem 25px;
 }
 .form-section__content {
   display: flex;
