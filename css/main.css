@@ -560,13 +560,16 @@ h5.button{
 .mrg-btm {
   margin-bottom: 6rem;
 }
-@media only screen and (max-width: 1068px) { 
+@media only screen and (max-width: 748px) { 
   .section__hide-div {
     display: none;
   }
   .section__content {
     min-height: 318px;
     width: 100%;
+  }
+  .section__content h2 {
+    font-size: 1.875rem;
   }
   .hero__content {
     min-height: 318px;
