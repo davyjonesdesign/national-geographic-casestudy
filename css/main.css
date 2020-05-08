@@ -238,10 +238,21 @@ component code
     justify-content: flex-start;
     align-items: center;
 }
+.logomark--footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
 .logomark__rectangle {
     height: 40px;
     width: 25px;
     border: .25rem solid var(--color-yellow);
+}
+.logomark__rectangle--footer {
+  height: 40px;
+  width: 25px;
+  border: .25rem solid var(--color-yellow);
 }
 .logomark__text {
     text-transform: uppercase;
@@ -251,6 +262,16 @@ component code
     padding-left: 0.25rem;
     letter-spacing: -1px;
     padding-top: 2.5px;
+}
+.logomark__text--footer {
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-size: 1.25rem;
+  line-height: 1.1rem;
+  padding-left: 0.25rem;
+  letter-spacing: -1px;
+  padding-top: 2.5px;
+  text-align: left;
 }
 .section-header {
     color: var(--color-white);
@@ -970,19 +991,19 @@ http://flickity.metafizzy.co
 }
 .fa-caret-right {
   display: inline-block;
-  position: absolute;
+  position: relative;
   font-size: 4rem;
-  left: 18rem;
-  top: 6rem;
+  left: 14.65rem;
+  top: -5.75rem;
   z-index: 1;
   color: var(--color-black);
 }
 .fa-caret-left {
   display: inline-block;
-  position: absolute;
+  position: relative;
   font-size: 4rem;
-  left: 16.9rem;
-  top: 21.5rem;
+  left: -2.5rem;
+  top: -4.8rem;
   z-index: 1;
   color: var(--color-white); 
 }
@@ -1061,10 +1082,10 @@ http://flickity.metafizzy.co
   flex-wrap: wrap;
   margin-left: -25px;
 }
-.page-footer__address p{
-  font-size: 1rem;
+.page-footer__address p {
+  font-size: 1vw;
   font-weight: 600;
-  line-height: 1.5rem;
+  line-height: 1.5vw;
 }
 .page-footer__upper-left {
   width: 25%;
@@ -1074,7 +1095,6 @@ http://flickity.metafizzy.co
 }
 .page-footer__upper-middle {
   width: 50%;
-  padding: 0 0 0 25px;
 }
 .page-footer__upper-middle ul {
   list-style-type: none;
@@ -1100,8 +1120,8 @@ http://flickity.metafizzy.co
   color: white;
   margin: 0 0 5px 0;
   padding: 0 0 5px 0;
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 1vw;
+  line-height: 1.7vw;
   font-weight: 500;
   border: none;
 }
@@ -1120,10 +1140,6 @@ http://flickity.metafizzy.co
 .page-footer__buttons--wrapper {
   margin: 0 10px 0 25px;
   float: right;
-
-}
-.page-footer__button {
-
 }
 .page-footer__button a{
   display: block;
@@ -1134,6 +1150,17 @@ http://flickity.metafizzy.co
   margin: 0;
   padding: 0 35px;
   text-align: center;
+}
+@media only screen and (max-width: 1080px) { 
+  .page-footer__button a {
+    font-size: 0.5625rem;
+    line-height: 38px;
+    min-width: 120px;
+    min-height: 40px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+  }
 }
 .page-footer__bottom-row {
   display: flex;
@@ -1176,7 +1203,7 @@ http://flickity.metafizzy.co
 }
 .page-footer__copyright--content a {
   color: var(--color-gray-middle);
-  font-size: 12px;
+  font-size: 1vw;
   line-height: 1.7;
   font-weight: 500;
   margin: 0;
@@ -1185,4 +1212,95 @@ http://flickity.metafizzy.co
 .page-footer__copyright--content a:hover {
   text-decoration: underline;
   text-decoration-color: var(--color-white);
+}
+@media only screen and (max-width: 768px) { 
+  .page-footer__upper-left {
+    width: 100%;
+  }
+  .page-footer__upper-middle {
+    width: 100%;
+  }
+  .page-footer__upper-right {
+    width: 100%;
+  }
+  .page-footer__bottom-right {
+    width: 100%;
+  }
+  .page-footer__bottom-middle {
+    width: 100%;
+  }
+  .page-footer__bottom-left {
+    width: 100%;
+  }
+  .page-footer__link-column {
+    width: 100%;
+    margin: 2rem 0 0 0
+  }
+  .page-footer {
+    text-align: center;
+  }
+  .page-footer__wrapper {
+    padding: 50px;
+  }
+  .page-footer__address {
+    margin: 3rem 0 0 0;
+  }
+  .page-footer__address p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .page-footer__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .page-footer__button a {
+    margin-left: 15px;
+  }
+  .page-footer__buttons--wrapper {
+    float: none;
+    margin-right: 15px;
+  }
+  .page-footer__social-icons {
+    margin-left: 15px;
+  }
+  .page-footer__copyright--content a {
+    font-size: 12px;
+  }
+  .page-footer__link-list--item a {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .page-footer__social-heading {
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .page-footer__link-heading {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .logomark__text--footer {
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-size: 1.85rem;
+    line-height: 1.75rem;
+    padding-left: 0.45rem;
+    letter-spacing: -1px;
+    padding-top: 2.5px;
+    text-align: left;
+  }
+  .logomark__rectangle--footer {
+    height: 60px;
+    width: 40px;
+    border: .35rem solid var(--color-yellow);
+  }
+  .logomark--footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    }
 }
