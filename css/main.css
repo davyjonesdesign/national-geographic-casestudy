@@ -993,8 +993,8 @@ http://flickity.metafizzy.co
   display: inline-block;
   position: relative;
   font-size: 4rem;
-  left: 14.65rem;
-  top: -5.75rem;
+  right: 0.15rem;
+  top: 5.75rem;
   z-index: 1;
   color: var(--color-black);
 }
@@ -1006,6 +1006,26 @@ http://flickity.metafizzy.co
   top: -4.8rem;
   z-index: 1;
   color: var(--color-white); 
+}
+@media only screen and (max-width: 768px) { 
+  .fa-caret-right {
+    display: inline-block;
+    position: relative;
+    font-size: 4rem;
+    right: 0.1rem;
+    top: 5.5rem;
+    z-index: 1;
+    color: var(--color-black);
+  }
+  .fa-caret-left {
+    display: inline-block;
+    position: relative;
+    font-size: 4rem;
+    left: -2.5rem;
+    top: -6.25rem;
+    z-index: 1;
+    color: var(--color-white); 
+  }
 }
 .social-grid__half--wrapper {
   min-height: 250px;
