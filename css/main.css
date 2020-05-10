@@ -331,7 +331,6 @@ h5.button{
 .navbar
 **/
 .navbar__sticky {
-  display: absolute;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -512,10 +511,9 @@ h5.button{
   display: flex;
 }
 .splash-video__container {
-  background-image: url("../img/video-splash__poster.jpg") center center no-repeat;
+  background-image: url("../img/video-splash__poster.jpg") center center;
   overflow: hidden;
   position: relative;
-  background-size: center;
   z-index: 0;
   max-height: 450px;
   width: 100%;
