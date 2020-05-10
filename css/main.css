@@ -551,6 +551,7 @@ h5.button{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding: 5rem 0;
 }
 .content-wrapper {
   display: flex;
