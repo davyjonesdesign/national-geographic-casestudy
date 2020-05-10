@@ -511,7 +511,7 @@ h5.button{
   display: flex;
 }
 .splash-video__container {
-  background-image: url("../img/video-splash__poster.jpg") center center;
+  background-image: url("../img/video-splash__poster.jpg");
   overflow: hidden;
   position: relative;
   z-index: 0;
